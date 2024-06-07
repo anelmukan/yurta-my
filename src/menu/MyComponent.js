@@ -11,7 +11,7 @@ const MyComponent = ({ data }) => {
           {/* Display other properties like name, price, and image */}
           <p>Name: {item.name}</p>
           <p>Price: {item.price}</p>
-          <img src={item.image} alt={item.name} />
+          <img src={item.image} alt={item.name}/>
         </div>
       ))}
     </div>

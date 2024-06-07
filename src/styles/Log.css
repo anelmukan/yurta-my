@@ -40,7 +40,7 @@
       display: flex;
       justify-content: center;
       flex-direction: column;
-      width: 40%;
+      width: 60%;
       color: #c2c8cc;
       font-size: 18px;
       align-self: center;
@@ -81,8 +81,8 @@
       font-size: 20px;
       border-color: #35c5f0;
       border-radius: 3px;
-      padding: 5px;
-      padding-left: 101px;
+ 
+      padding-left: 50px;
       padding-right: 101px;
       color: #fff;
       padding-top: 15px;

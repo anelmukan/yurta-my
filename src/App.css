@@ -1,111 +1,111 @@
 nav{
-    background-color: #cfd8dc;
-    display: flex;
-    justify-content: center;
-    padding: 15px;
+  background-color: #cfd8dc;
+  display: flex;
+  justify-content: center;
+  padding: 15px;
 flex-wrap: wrap; 
-        background-color: #ffffff;
-    
-  }
+      background-color: #ffffff;
   
-  .head{
-    padding: 10px 40px;
-    text-decoration: none;
+}
+
+.head{
+  padding: 10px 40px;
+  text-decoration: none;
 text-transform: uppercase;
-    font-size: 14px;
- font-family: 'Montserrat', sans-serif;
-    color: #505050;
-    font-weight: 800;
-  }
+  font-size: 14px;
+font-family: 'Montserrat', sans-serif;
+  color: #505050;
+  font-weight: 800;
+}
 
-  .home-head{
-    font-size: 25px;
-    display: flex;
-    justify-content: flex-start;
-    text-decoration: none;
-    color: #1d1d1d;
-    font-weight: 700;
-  }
-  .head:hover {
-    color: #00bbff;
-  }
-  .home-head:hover{
-    color: #363636;
-  }
+.home-head{
+  font-size: 25px;
+  display: flex;
+  justify-content: flex-start;
+  text-decoration: none;
+  color: #1d1d1d;
+  font-weight: 700;
+}
+.head:hover {
+  color: #9CAD84;
+}
+.home-head:hover{
+  color: #363636;
+}
 
-  .head-btn {
-    padding: 7px;
-    background-color: #00bbff;
-    color: white;
-    text-decoration: none;
-    border-radius: 4px;
-    font-weight: 550;
-  }
-  .head-btn:hover {
-    color: #ffffff;
-  }
+.head-btn {
+  padding: 7px;
+  background-color: #9CAD84;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+  font-weight: 550;
+}
+.head-btn:hover {
+  color: #ffffff;
+}
 
-  .products {
+.products {
 
-    display: flex;
-  
-    flex-wrap: wrap;
-  
-  }
-  
-  .product-card {
-  
-    padding: 2%;
-  
-    flex-grow: 1;
-  
-    flex-basis: 16%;
-  
-  }
-  
-  body {
-  
-    background-color: #f6f6f6;
-  
-  }
-  
-  
-  
-  .cont {
-  
-    display: flex;
-  
-    justify-content: center;
-  
-  }
-  
-  
-  .change {
-  
-    background-color: #30c8ff;
-  
-    color: white;
-    font-weight: 700;
-  
-    padding: 10px;
-  
-    border: none;
-  
-    font-family: 'Montserrat', sans-serif;
-  
-  }
-  
-  h3, h4 {
-  
-    font-family:'Montserrat', sans-serif;
-  
-  }
-  
-  button {
-  
-    margin: 10px;
-  
-  }
- 
+  display: flex;
+
+  flex-wrap: wrap;
+
+}
+
+.product-card {
+
+  padding: 2%;
+
+  flex-grow: 1;
+
+  flex-basis: 16%;
+
+}
+
+body {
+
+  background-color: #f6f6f6;
+
+}
+
+
+
+.cont {
+
+  display: flex;
+
+  justify-content: center;
+
+}
+
+
+.change {
+
+  background-color: #9CAD84;
+
+  color: white;
+  font-weight: 200;
+
+  padding: 10px;
+
+  border: none;
+
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+p {
+
+  font-family:'Montserrat', sans-serif;
+
+}
+
+button {
+
+  margin: 10px;
+
+}
+
 
 

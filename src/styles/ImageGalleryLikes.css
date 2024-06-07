@@ -1,0 +1,82 @@
+.image-gallery-container {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    padding: 20px;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    margin-bottom: 20px;
+  }
+  
+  .image-gallery {
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+  }
+  
+  .image-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 5px;
+  }
+  
+  .image-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .image-container img {
+    width: 150px; /* Image size */
+    height: 170px; /* Image size */
+    border-radius: 5px;
+  }
+  
+  .likes-dislikes {
+    display: flex;
+    justify-content: center;
+
+    margin-top: 5px;
+  }
+  
+  .likes-dislikes button {
+    background-color: #9CAD84;
+    color: white;
+    border: none;
+    padding: 3px 8px; /* Adjusted padding for smaller and thinner buttons */
+    font-size: 12px; /* Adjusted font size */
+    cursor: pointer;
+    border-radius: 3px;
+  }
+  
+  .likes-dislikes button:hover {
+    background-color: #007bb5;
+  }
+  
+  .scroll-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(255, 255, 255, 0.7);
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    z-index: 1000;
+  }
+  
+  .scroll-button.left {
+    left: 10px;
+  }
+  
+  .scroll-button.right {
+    right: 10px;
+  }
+  

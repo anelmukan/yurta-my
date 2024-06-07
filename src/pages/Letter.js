@@ -7,11 +7,12 @@ function Letter() {
     <div className="letter-container">
       <div className="letter-logo">
         <Link className="logo" to="/">
-          <img src="../image/logo.jpg" alt="" width="60px" height="60px" />
-          <h2>YurtaHome</h2>
+          <img src="./images/logo.jpg" alt="" width="60px" height="60px" />
+          
         </Link>
       </div>
-      <h3>Напишите о своем опыте:</h3>
+      <h3>Напишите всем о своем опыте:</h3>
+      <h6>Поделитесь идеями и вдохновите других по оформлению комнаты</h6>
       <form action="/action_page.php">
         <label htmlFor="fname">Ваше имя</label>
         <input type="text" id="fname" name="firstname" placeholder="Мое имя.." />

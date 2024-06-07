@@ -12,3 +12,4 @@ function Buttons ({filteredCatalog}) {
 }
 
 export default Buttons;
+

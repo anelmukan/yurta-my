@@ -9,12 +9,12 @@ function Catalog ({elegante}) {
                 console.log(element)
 return (<div className="product-card" key={id} >
 <p>{id}</p>
-<img src={image} alt="cloth" width="400px" height="500px" />
+<img src={image} alt="cloth" width="130px" height="150px" />
 
 <div className="product-info">
-<h3>{name}</h3>
-<h4>{searchTerm}</h4>
-<h4>{price}</h4>
+<p>{name}</p>
+<p>{searchTerm}</p>
+<p>{price}</p>
 </div>
 </div>
 )
