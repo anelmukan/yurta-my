@@ -1,9 +1,8 @@
 import React from 'react';
-import { Link } from 'react-router-dom'; // Removed useNavigate
+import { Link } from 'react-router-dom';
 import '../styles/Log.css';
 
 function Log() {
-  // Removed useNavigate since it's not being used
   const login = () => {
     var username = document.getElementById("username").value;
     var password = document.getElementById("password").value;
@@ -30,8 +29,6 @@ function Log() {
     alert("Login with Facebook functionality coming soon!");
   };
 
-  // Removed loginWithNickname since it's not being used
-
   const logout = () => {
     document.getElementById("loginForm").classList.remove("hidden");
     document.getElementById("socialLogin").classList.remove("hidden");
@@ -46,7 +43,7 @@ function Log() {
       <div className="logo">
         <Link className="logo" to="/">
           <img src="../images/logo.jpg" alt="" width="60px" height="60px" />
-          <h2>YurtaHome</h2>
+        
         </Link>
       </div>
       <div className="big-container">

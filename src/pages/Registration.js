@@ -14,7 +14,6 @@ function Registration() {
       alert("Passwords do not match");
       return;
     }
-    // Handle form submission
     console.log("Form submitted:", { email, password, rememberMe });
   };
 
@@ -31,7 +30,7 @@ function Registration() {
         <div className="logo">
           <Link className="logo" to="/">
           <img src="../images/logo.jpg" alt="" width="60px" height="60px" />
-            <h2>YurtaHome</h2>
+           
           </Link>
         </div>
         <div className="form-container">

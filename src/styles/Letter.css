@@ -1,60 +1,78 @@
 .letter-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    font-family: Arial, Helvetica, sans-serif;
-    border-radius: 5px;
-    background-color: #ffffff;
-    padding: 20px;
-    width: 400px;
-    margin-left: 170px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 5px;
+  background-color: #ffffff;
+  padding: 20px;
+  width: 100%; 
+  max-width: 400px; 
+  margin: 0 auto; 
+}
+
+.letter-container h3 {
+  text-align: center; 
+  margin: 0; 
+}
+
+input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type="submit"] {
+  background-color: #9CAD84;
+  color: #fafafa;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #FFF8F5;
+}
+
+h3 {
+  margin-top: 15px;
+}
+
+h6 {
+  margin-bottom: 25px;
+  margin-top: 20px;
+  font-family: cursive;
+  color: #7f8e6a;
+}
+
+.letter-logo {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  text-decoration: none;
+  color: #272727;
+}
+
+@media screen and (max-width: 600px) {
+  .letter-container {
+    padding: 10px; 
   }
-  
-  .letter-container h3 {
-    margin-left: 100px;
-  }
-  
-  input[type="text"],
-  select,
-  textarea {
-    width: 100%;
-    padding: 12px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-    margin-top: 6px;
-    margin-bottom: 16px;
-    resize: vertical;
-  }
-  
+
   input[type="submit"] {
-    background-color:#9CAD84;
-    color: #fafafa;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
+    width: 100%;
+    padding: 10px; 
   }
-  
-  input[type="submit"]:hover {
-    background-color: #FFF8F5;
+
+  .letter-container h3 {
+    margin-left: 0;
   }
-  h3{
-    margin-top: 15px;
-  }
-  h6{
-    margin-bottom: 25px;
-    margin-top: 20px;
-    font-family:cursive;
-    color: #7f8e6a;
-  }
-  
-  .letter-logo {
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
-    text-decoration: none;
-    color: #272727;
-  }
-  
+}

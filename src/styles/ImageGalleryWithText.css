@@ -8,11 +8,11 @@
     display: flex;
     overflow-x: scroll;
     scroll-behavior: smooth;
-    scrollbar-width: none; /* For Firefox */
+    scrollbar-width: none; 
   }
   
   .image-gallery::-webkit-scrollbar {
-    display: none; /* For Chrome, Safari, and Opera */
+    display: none;
   }
   
   .image-item {
