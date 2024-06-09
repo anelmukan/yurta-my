@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/TodayDeal.css'; // Ensure to create and import the corresponding CSS file
+import '../styles/TodayDeal.css'; 
 
 const TodayDeal = () => {
   const deals = [
