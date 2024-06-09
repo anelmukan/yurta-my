@@ -1,10 +1,10 @@
 import React, { useRef, useState } from 'react';
 import '../styles/ImageGalleryLikes.css';
 
-// Mock function to check if the user is authorized
+
 const isUserAuthorized = () => {
-  // Replace with actual logic to check user authentication
-  return true; // or false if the user is not authorized
+ 
+  return true; 
 };
 
 const ImageGalleryLikes = () => {
