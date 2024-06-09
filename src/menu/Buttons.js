@@ -1,6 +1,10 @@
+import { data } from "./data";
+
 function Buttons ({filteredCatalog}) {
     return (
         <div className="cont">
+        
+
 <button className="change" onClick={()=>filteredCatalog("гостинная")}>Гостинная</button>
 <button className="change" onClick={()=>filteredCatalog("спальня")}>Спальня</button>
 <button className="change" onClick={()=>filteredCatalog("кухня")}>Кухня</button>

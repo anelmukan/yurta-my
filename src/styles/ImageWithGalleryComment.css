@@ -1,0 +1,96 @@
+.ig-image-gallery-container {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  padding: 20px;
+}
+
+.ig-title {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.ig-description {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.ig-scroll-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(255, 255, 255, 0.7);
+  border: none;
+  font-size: 2rem;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.ig-scroll-button.left {
+  left: 0;
+}
+
+.ig-scroll-button.right {
+  right: 0;
+}
+
+.ig-image-gallery {
+  display: flex;
+  overflow-x: scroll;
+  scroll-behavior: smooth;
+  scrollbar-width: none; /* For Firefox */
+}
+
+.ig-image-gallery::-webkit-scrollbar {
+  display: none; /* For Chrome, Safari, and Opera */
+}
+
+.ig-image-container {
+  flex: 0 0 auto;
+  margin: 5px; /* Reduced margin to bring images closer */
+  position: relative;
+  width: auto;
+}
+
+.ig-image {
+  height: 250px;
+  width: auto;
+  display: block;
+}
+
+.ig-image-caption {
+  padding: 10px;
+}
+
+.ig-comment-section {
+  max-height: 50px; /* Reduce the height to half */
+  overflow-y: auto;
+}
+
+.ig-comment {
+  background: #f0f0f0;
+  margin-bottom: 5px;
+  padding: 5px;
+  border-radius: 3px;
+}
+
+.ig-comment-form {
+  display: flex;
+  gap: 5px;
+}
+
+.ig-comment-form input {
+  flex: 1;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.ig-comment-form button {
+  padding: 5px 10px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  border-radius: 3px;
+  cursor: pointer;
+}

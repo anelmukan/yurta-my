@@ -1,0 +1,88 @@
+.today-deal-container {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+  }
+  
+  h2 {
+    text-align: left;
+    margin-bottom: 20px;
+  }
+  
+  .deals-grid {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+  }
+  
+  .deal-item {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    width: 23%;
+    position: relative;
+  }
+  
+  .countdown-timer {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: red;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 3px;
+    font-size: 12px;
+    z-index: 1;
+  }
+  
+  .deal-image {
+    width: 100%;
+    height: auto;
+  }
+  
+  .deal-details {
+    padding: 10px;
+  }
+  
+  .deal-label {
+    font-size: 12px;
+    color: grey;
+  }
+  
+  .deal-title {
+    font-size: 14px;
+    margin: 10px 0;
+    height: 40px;
+    overflow: hidden;
+  }
+  
+  .deal-price {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .discount {
+    color: red;
+    margin-right: 5px;
+  }
+  
+  .deal-rating {
+    font-size: 12px;
+    color: grey;
+    margin: 10px 0;
+  }
+  
+  .deal-delivery {
+    font-size: 12px;
+    color: grey;
+  }
+  
+  .more-deals-link {
+    display: block;
+    text-align: right;
+    margin-top: 20px;
+    color: blue;
+    text-decoration: none;
+  }
+  

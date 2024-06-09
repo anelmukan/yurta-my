@@ -5,10 +5,12 @@ import Design from './menu/Design';
 import Letter from './pages/Letter';
 import Log from './pages/Log';
 import Registration from './pages/Registration';
-import ImageGallery from './components/ImageGallery';
 import './App.css';
 import ImageGalleryLikes from './components/ImageGalleryLikes';
 import Footer from './components/Footer';
+import ImageGalleryWithText from './components/ImageGalleryWithText';
+import ImageWithGalleryComment from './components/ImageWithGalleryComment';
+import TodayDeal from './components/TodayDeal';
 
 function MainContent() {
   const location = useLocation();
@@ -16,8 +18,11 @@ function MainContent() {
 
   return (
     <>
-      {showImageGallery && <ImageGallery />}
-      {showImageGallery && <ImageGalleryLikes />}
+    {showImageGallery && <ImageGalleryWithText />}
+    {showImageGallery && <ImageGalleryLikes />}
+    
+      {showImageGallery && <ImageWithGalleryComment />}
+      {showImageGallery && <TodayDeal />}
       
       <Routes>
         <Route path="/" element={<YurtaHome />} />

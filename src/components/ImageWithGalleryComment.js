@@ -1,5 +1,5 @@
 import React, { useRef, useState } from 'react';
-import '../styles/ImageGallery.css';
+import '../styles/ImageWithGalleryComment.css';
 
 // Mock function to check if the user is authorized
 const isUserAuthorized = () => {
@@ -7,7 +7,7 @@ const isUserAuthorized = () => {
   return true; // or false if the user is not authorized
 };
 
-const ImageGallery = () => {
+const ImageGalleryComment = () => {
   const scrollRef = useRef(null);
 
   const imageUrls = [
@@ -94,4 +94,4 @@ const CommentForm = ({ index, onCommentSubmit }) => {
   );
 };
 
-export default ImageGallery;
+export default ImageGalleryComment;

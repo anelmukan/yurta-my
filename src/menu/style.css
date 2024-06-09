@@ -1,0 +1,37 @@
+
+
+.table {
+padding: 10px;
+padding-left: 10px;
+padding-right: 10px;
+display: flex;
+justify-content: center;
+margin-left: 400px;
+
+}
+.tablet {
+    padding: 10px;
+padding-left: 10px;
+padding-right: 410px;
+display: flex;
+justify-content: center;
+margin-left: 400px;
+}
+.btr {
+display: flex;
+justify-content: center;
+background-color:#00bbff;
+color: white;
+width: 500px;
+margin-left: 400px;
+border: none;
+cursor: pointer;
+padding-left: 150px;
+padding-right: 320px;
+opacity: 0.9;
+
+} 
+
+.btr:hover {
+    opacity:1;
+}
