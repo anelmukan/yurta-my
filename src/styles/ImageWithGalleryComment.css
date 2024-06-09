@@ -20,7 +20,8 @@
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  background: #9CAD84;
+  background: #FFF;
+  color: #9CAD84;
   border: none;
   font-size: 2rem;
   cursor: pointer;
@@ -39,17 +40,17 @@
   display: flex;
   overflow-x: scroll;
   scroll-behavior: smooth;
-  scrollbar-width: none; /* For Firefox */
+  scrollbar-width: none; 
 }
 
 .ig-image-gallery::-webkit-scrollbar {
-  display: none; /* For Chrome, Safari, and Opera */
+  display: none; 
 
 }
 
 .ig-image-container {
   flex: 0 0 auto;
-  margin: 5px; /* Reduced margin to bring images closer */
+  margin: 5px; 
   position: relative;
   width: auto;
     margin: 10px;
@@ -66,12 +67,12 @@
 }
 
 .ig-comment-section {
-  max-height: 50px; /* Reduce the height to half */
+  max-height: 50px; 
   overflow-y: auto;
 }
 
 .ig-comment {
-  background: #f0f0f0;
+  background: #fd6d6d;
   margin-bottom: 5px;
   padding: 5px;
   border-radius: 3px;
@@ -84,10 +85,11 @@
 
 .ig-comment-form input {
   flex: 1;
-  padding: 5px;
+  padding: 1px;
   border: 1px solid #9CAD84  ;
   border-radius: 3px;
 }
+
 
 .ig-comment-form button {
   padding: 5px 10px;
@@ -98,7 +100,8 @@
   cursor: pointer;
 }
 .submit{
-  background-color: #9CAD84;
-  color: #f0f0f0;
+  background-color: #fff;
+  color: #9CAD84  ;
   border-color: #f0f0f0;
+  border-radius: 5px;
 }

@@ -1,33 +1,77 @@
-.onas {
-    display: flex;
-  
-    .footer1 {
-      display: flex;
-      flex-direction: column;
-      left: 0;
-      width: 100%;
-      padding: 40px;
-      background-color: #f7f9fa;
-      color: rgb(63, 63, 63);
-      font-family: "Montserrat", sans-serif;
-      font-size: small;
-  
-      .foot {
-        color: rgb(55, 54, 54);
-        font-weight: 600;
-        font-size: 18px;
-        font-family: "Montserrat", sans-serif;
-      }
-    }
-    .footer2 {
-      display: flex;
-      flex-direction: column;
-      left: 0;
-      width: 100%;
-      padding: 40px;
-      background-color: #f7f9fa;
-      color: rgb(63, 63, 63);
-      font-family: "Montserrat", sans-serif;
-      font-size: smaller;
-    }
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #f8f8f8;
+  font-family: Arial, sans-serif;
+}
+
+.customer-service {
+  max-width: 30%;
+}
+
+.phone-number {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.contact-button, .email-request-button {
+  display: block;
+  margin-top: 10px;
+  padding: 10px;
+  border: none;
+  background-color: #e0e0e0;
+  cursor: pointer;
+}
+
+.footer-links {
+  display: flex;
+  gap: 40px;
+}
+
+.footer-links ul {
+  padding-left: 0;
+}
+
+.footer-links li {
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.company-info {
+  max-width: 30%;
+}
+
+.certifications img {
+  margin-right: 10px;
+}
+
+.company-info p {
+  margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+  .footer {
+    flex-direction: column;
+    align-items: center;
   }
+
+  .customer-service, .footer-links, .company-info {
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .footer-links {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-links ul {
+    margin-bottom: 20px;
+  }
+}

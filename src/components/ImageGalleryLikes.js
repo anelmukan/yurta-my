@@ -53,10 +53,10 @@ const ImageGalleryLikes = () => {
               <img src={imageUrl} alt={`Image ${index + 1}`} />
               <div className="likes-dislikes">
                 <button onClick={() => handleLike(index)}>
-                 🤍 {likes[index]}
+                ❤ {likes[index]}
                 </button>
-                <button onClick={() => handleDislike(index)}>
-                🖤 {dislikes[index]}
+                <button>
+                 еще
                 </button>
               </div>
             </div>

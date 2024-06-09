@@ -1,10 +1,10 @@
 nav{
-  background-color: #cfd8dc;
+  background-color: #fff;
   display: flex;
   justify-content: center;
   padding: 15px;
-flex-wrap: wrap; 
-      background-color: #ffffff;
+ flex-wrap: wrap; 
+ background-color: #ffffff;
   
 }
 
@@ -65,7 +65,7 @@ font-family: 'Montserrat', sans-serif;
 
 body {
 
-  background-color: #f6f6f6;
+  background-color: #fff;
 
 }
 

@@ -43,7 +43,7 @@ const ImageGalleryComment = () => {
 
   return (
     <div className="image-gallery-container">
-      <h2>Вы ищете такие фотографии?</h2>
+      <h2>Поделитесь свои мнением, как вам эти дизайны комнат?</h2>
       <p>Мы рекомендуем контент по дизайну интерьера, который вам может понравиться.</p>
       <div className="scroll-button left" onClick={() => scroll(-300)}>‹</div>
       <div className="image-gallery" ref={scrollRef}>
@@ -82,7 +82,7 @@ const CommentForm = ({ index, onCommentSubmit }) => {
 
   return (
     <form onSubmit={handleSubmit} className="comment-form">
-      <input
+      <input 
         type="text"
         value={comment}
         onChange={(e) => setComment(e.target.value)}

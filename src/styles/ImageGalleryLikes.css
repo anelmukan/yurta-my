@@ -35,8 +35,8 @@
   }
   
   .image-container img {
-    width: 150px; /* Image size */
-    height: 170px; /* Image size */
+    width: 150px; 
+    height: 170px; 
     border-radius: 5px;
   }
   
@@ -48,11 +48,11 @@
   }
   
   .likes-dislikes button {
-    background-color: #9CAD84;
-    color: white;
+    
+    color: #8ea370;
     border: none;
-    padding: 3px 8px; /* Adjusted padding for smaller and thinner buttons */
-    font-size: 12px; /* Adjusted font size */
+    padding: 3px 8px; 
+    font-size: 12px; 
     cursor: pointer;
     border-radius: 3px;
   }
@@ -65,7 +65,7 @@
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    background-color: rgba(255, 255, 255, 0.7);
+    background-color: rgb(255, 255, 255);
     border: none;
     font-size: 24px;
     cursor: pointer;

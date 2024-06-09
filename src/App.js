@@ -24,6 +24,7 @@ function MainContent() {
       {showImageGallery && <ImageWithGalleryComment />}
       {showImageGallery && <TodayDeal />}
       
+      
       <Routes>
         <Route path="/" element={<YurtaHome />} />
         <Route path="/design" element={<Design />} />
