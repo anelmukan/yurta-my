@@ -1,12 +1,12 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import '../styles/TodayDeal.css'; 
 
 const TodayDeal = () => {
-  const deals = [
+  const initialDeals = [
     {
       id: 1,
       title: "Signature Red 70 листов 20 упаковок",
-      price: "6 781 ",
+      price: "6 781",
       discount: "34%",
       imageUrl: "https://cdn.glitch.global/2c984d1f-3515-4819-b14d-28af3b836b96/hanger.jpg?v=1717919493748",
       rating: 4.9,
@@ -52,6 +52,24 @@ const TodayDeal = () => {
       countdown: "07:25:20",
     },
   ];
+
+  const [deals, setDeals] = useState(initialDeals);
+
+  useEffect(() => {
+    const timer = setInterval(() => {
+      setDeals((prevDeals) =>
+        prevDeals.map((deal) => {
+          const [hours, minutes, seconds] = deal.countdown.split(':').map(Number);
+          const date = new Date();
+          date.setHours(hours, minutes, seconds + 1);
+          const newCountdown = date.toTimeString().split(' ')[0];
+          return { ...deal, countdown: newCountdown };
+        })
+      );
+    }, 1000);
+
+    return () => clearInterval(timer);
+  }, []);
 
   return (
     <div className="today-deal-container">

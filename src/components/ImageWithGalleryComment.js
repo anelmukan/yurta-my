@@ -86,7 +86,7 @@ const CommentForm = ({ index, onCommentSubmit }) => {
         type="text"
         value={comment}
         onChange={(e) => setComment(e.target.value)}
-        placeholder="Add a comment"
+        placeholder="Напиши.."
       />
       <button className='submit' type="submit">Добавить</button>
     </form>
