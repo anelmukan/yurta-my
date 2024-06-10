@@ -49,7 +49,7 @@ const ImageGalleryComment = () => {
       <div className="image-gallery" ref={scrollRef}>
         {imageUrls.map((imageUrl, index) => (
           <div className="image-container" key={index}>
-            <img src={imageUrl} alt={`Image ${index + 1}`} />
+            <img src={imageUrl} alt={` ${index + 1}`} />
             <div className="image-caption">
               {comments[index].map((comment, i) => (
                 <div key={i} className="comment">

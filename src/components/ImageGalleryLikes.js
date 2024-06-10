@@ -2,10 +2,7 @@ import React, { useRef, useState } from 'react';
 import '../styles/ImageGalleryLikes.css';
 
 
-const isUserAuthorized = () => {
- 
-  return true; 
-};
+
 
 const ImageGalleryLikes = () => {
   const scrollRef = useRef(null);
@@ -50,13 +47,13 @@ const ImageGalleryLikes = () => {
         {imageUrls.map((imageUrl, index) => (
           <div className="image-item" key={index}>
             <div className="image-container">
-              <img src={imageUrl} alt={`Image ${index + 1}`} />
+              <img src={imageUrl} alt={` ${index + 1}`} />
               <div className="likes-dislikes">
                 <button onClick={() => handleLike(index)}>
                 ❤ {likes[index]}
                 </button>
-                <button>
-                 еще
+                <button onClick={() => handleLike(index)}>
+                ❤ {dislikes[index]}
                 </button>
               </div>
             </div>

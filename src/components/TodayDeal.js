@@ -86,7 +86,7 @@ const TodayDeal = () => {
                 <span className="discount">{deal.discount}</span> {deal.price}
               </div>
               <div className="deal-rating">
-                <span>⭐ {deal.rating}</span> Отзывы {deal.reviews}
+                <span>⭐{deal.rating}</span> Отзывы {deal.reviews}
               </div>
               <div className="deal-delivery">{deal.delivery}</div>
             </div>
