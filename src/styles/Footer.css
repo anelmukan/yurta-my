@@ -2,16 +2,17 @@
   display: flex;
   justify-content: space-between;
   padding: 20px;
+ flex-wrap: nowrap;
   background-color: #f8f8f8;
   font-family: Arial, sans-serif;
 }
 
 .customer-service {
-  max-width: 30%;
+  max-width: 10%;
 }
 
 .phone-number {
-  font-size: 20px;
+  font-size: 11px;
   font-weight: bold;
 }
 
@@ -31,7 +32,7 @@ ul {
 
 .footer-links {
   display: flex;
-  gap: 40px;
+  gap: 15px;
 }
 
 .footer-links ul {
@@ -55,10 +56,11 @@ ul {
   margin-bottom: 10px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1200px) {
   .footer {
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
+   
   }
 
   .customer-service, .footer-links, .company-info {
@@ -67,7 +69,7 @@ ul {
   }
 
   .footer-links {
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
   }
 

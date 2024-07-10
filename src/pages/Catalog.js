@@ -1,53 +1,65 @@
+// src/pages/Catalog.js
+/*import React from "react";
+import { Link } from 'react-router-dom';
+import "../styles/Letter.css";
+
+
+const Catalog = () => {
+    return <div className="content"><h1>Catalog</h1></div>;
+   
+};
+
+export default Catalog;*/
 import React, { useState, useEffect } from 'react';
 import '../styles/TodayDeal.css'; 
 
-const TodayDeal = () => {
+const Catalog = () => {
   const initialDeals = [
     {
       id: 1,
-      title: "Вешалка стойка, металл, 150x162 см, черный",
+      title: "Зеркало Волна,на подставке",
       price: "6 781",
       discount: "34%",
-      imageUrl: "https://cdn.glitch.global/2c984d1f-3515-4819-b14d-28af3b836b96/hanger.jpg?v=1717919493748",
-      rating: 4.9,
-      reviews: 2246,
-      label: "Бебе Форест",
+      imageUrl: "https://cdn.glitch.global/2c984d1f-3515-4819-b14d-28af3b836b96/wavemirror.jpg?v=1717909062952",
+      rating: 3.9,
+      reviews: 1005,
+      label: "Волна 797",
       delivery: "Бесплатная доставка",
       countdown: "07:25:20",
     },
     {
       id: 2,
-      title: "Зеркало Волна, для каждого взгляда",
-      price: "34 000",
+      title: "Диван Сальвадор",
+      price: "144 000",
       discount: "60%",
-      imageUrl: "https://cdn.glitch.global/2c984d1f-3515-4819-b14d-28af3b836b96/mirroooor.jpg?v=1717920625450",
+      imageUrl: "https://cdn.glitch.global/2c984d1f-3515-4819-b14d-28af3b836b96/divanpokupki.jpeg?v=1704612726856",
       rating: 4.8,
       reviews: 243,
-      label: "Зеркало волна",
+      label: "Диван трех местный",
       delivery: "Скидка при оплате до 5%",
       countdown: "07:25:20",
     },
     {
       id: 3,
-      title: "Кресло из трендового материала Букле",
-      price: "98 000",
-      discount: "28%",
-      imageUrl: "https://cdn.glitch.global/2c984d1f-3515-4819-b14d-28af3b836b96/bukle.jpg?v=1717920860084",
+      title: "Ваза для цветов",
+      price: "8500",
+      discount: "20%",
+      imageUrl: "https://cdn.glitch.global/2c984d1f-3515-4819-b14d-28af3b836b96/IMG_7714.JPG?v=1704612930801",
       rating: 4.7,
       reviews: 16289,
-      label: "Вокруг белого",
+      label: "Декор ваза, искусство",
       delivery: "Скидка при оплате до 5%",
       countdown: "07:25:20",
     },
     {
       id: 4,
-      title: "Бестселлер дивана Essa из ткани премиум",
-      price: "41 000",
-      discount: "37%",
-      imageUrl: "https://cdn.glitch.global/2c984d1f-3515-4819-b14d-28af3b836b96/bed.jpg?v=1717921165763",
+      title: "Постер горы, настенный",
+      price: "9 000",
+      discount: "67%",
+      imageUrl: "https://cdn.glitch.global/2c984d1f-3515-4819-b14d-28af3b836b96/reg-fourteen.jpg?v=1704613122184",
       rating: 4.7,
       reviews: 944,
-      label: "Эсса",
+      label: "Каул",
       delivery: "Бесплатная доставка",
       countdown: "21:25:20",
     },
@@ -99,4 +111,5 @@ const TodayDeal = () => {
   );
 };
 
-export default TodayDeal;
+export default Catalog;
+

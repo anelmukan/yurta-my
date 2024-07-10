@@ -9,15 +9,19 @@
     overflow-x: scroll;
     scroll-behavior: smooth;
     scrollbar-width: none; 
+   
   }
-  
+
+
   .image-gallery::-webkit-scrollbar {
     display: none;
+   
   }
   
   .image-item {
     min-width: 300px;
     margin: 10px;
+   
   }
   
   .image-container {
@@ -29,20 +33,7 @@
     font-size: 1rem;
     margin: 10px 0;
   }
-  
-  .likes-dislikes {
-    display: flex;
-    justify-content: center;
-    margin-top: 5px;
-  }
-  
-  .likes-dislikes button {
-    background: none;
-    border: none;
-    font-size: 1.2rem;
-    cursor: pointer;
-    margin: 0 5px;
-  }
+
   
   .scroll-button {
     position: absolute;
@@ -57,6 +48,7 @@
   
   .scroll-button.left {
     left: 0;
+  
   }
   
   .scroll-button.right {

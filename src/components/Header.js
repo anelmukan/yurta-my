@@ -57,8 +57,8 @@ function Header() {
             </NavLink>
           </li>
           <li className="nav-item">
-            <NavLink to="/design" className="nav-link" onClick={closeMobileMenu}>
-              Дизайн
+            <NavLink to="/us" className="nav-link" onClick={closeMobileMenu}>
+              О нас
             </NavLink>
           </li>
           <li className="nav-item">

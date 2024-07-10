@@ -60,14 +60,7 @@ const ImageGalleryWithText = () => {
             <div className="image-container">
               <img src={imageUrl} alt={` ${index + 1}`} />
               <p className="image-text">{imageTexts[index]}</p>
-              <div className="likes-dislikes">
-                <button onClick={() => handleLike(index)}>
-                  🤍 {likes[index]}
-                </button>
-                <button onClick={() => handleDislike(index)}>
-                  🖤 {dislikes[index]}
-                </button>
-              </div>
+          
             </div>
           </div>
         ))}

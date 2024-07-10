@@ -32,11 +32,6 @@ const ImageGalleryLikes = () => {
     setLikes(newLikes);
   };
 
-  const handleDislike = (index) => {
-    const newDislikes = [...dislikes];
-    newDislikes[index] += 1;
-    setDislikes(newDislikes);
-  };
 
   return (
     <div className="image-gallery-container">
@@ -52,14 +47,17 @@ const ImageGalleryLikes = () => {
                 <button onClick={() => handleLike(index)}>
                 ❤ {likes[index]}
                 </button>
-                <button onClick={() => handleLike(index)}>
-                ❤ {dislikes[index]}
-                </button>
+                
+              
               </div>
+              
             </div>
+            
           </div>
+          
         ))}
       </div>
+  
       <div className="scroll-button right" onClick={() => scroll(300)}>›</div>
     </div>
   );

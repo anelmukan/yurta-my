@@ -1,21 +1,13 @@
-
 import React from 'react';
 
+const YurtaHome = () => {
+    return (
+        <div>
+          
+            <h1>Welcome to YurtaHome</h1>
+            {/* Здесь может быть содержимое домашней страницы */}
+        </div>
+    );
+};
 
-
-function YurtaHome(){ 
-
-
-
-  return (
-    <div className='container'>
-    <div className='room'>
-<h2 className='home-head'>Делитесь идеями своих дизайнерских комнат</h2>
-    </div>
-    
-    </div>
-  )
-
-}
-
-  export default YurtaHome;
+export default YurtaHome;

@@ -29,7 +29,7 @@ function Registration() {
       <div className="log-container">
         <div className="logo">
           <Link className="logo" to="/">
-          <img src="../images/logo.jpg" alt="" width="60px" height="60px" />
+          <img src="../images/logo.png" alt="" width="60px" height="60px" />
            
           </Link>
         </div>
