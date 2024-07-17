@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/yurta-my/static/css/main.8d019ff6.chunk.css",
+    "main.js": "/yurta-my/static/js/main.2e4c333b.chunk.js",
+    "main.js.map": "/yurta-my/static/js/main.2e4c333b.chunk.js.map",
+    "runtime~main.js": "/yurta-my/static/js/runtime~main.d627d9ad.js",
+    "runtime~main.js.map": "/yurta-my/static/js/runtime~main.d627d9ad.js.map",
+    "static/css/2.2ae677b1.chunk.css": "/yurta-my/static/css/2.2ae677b1.chunk.css",
+    "static/js/2.92e4bb1e.chunk.js": "/yurta-my/static/js/2.92e4bb1e.chunk.js",
+    "static/js/2.92e4bb1e.chunk.js.map": "/yurta-my/static/js/2.92e4bb1e.chunk.js.map",
+    "static/js/3.9973b74a.chunk.js": "/yurta-my/static/js/3.9973b74a.chunk.js",
+    "static/js/3.9973b74a.chunk.js.map": "/yurta-my/static/js/3.9973b74a.chunk.js.map",
+    "index.html": "/yurta-my/index.html",
+    "precache-manifest.1463a028b89afffa06777f55f2eaebfe.js": "/yurta-my/precache-manifest.1463a028b89afffa06777f55f2eaebfe.js",
+    "service-worker.js": "/yurta-my/service-worker.js",
+    "static/css/2.2ae677b1.chunk.css.map": "/yurta-my/static/css/2.2ae677b1.chunk.css.map",
+    "static/css/main.8d019ff6.chunk.css.map": "/yurta-my/static/css/main.8d019ff6.chunk.css.map",
+    "static/media/slick-theme.css": "/yurta-my/static/media/slick.f97e3bbf.svg"
+  }
+}
