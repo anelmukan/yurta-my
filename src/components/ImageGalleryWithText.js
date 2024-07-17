@@ -37,18 +37,9 @@ const ImageGalleryWithText = () => {
     scrollRef.current.scrollLeft += scrollOffset;
   };
 
-  const handleLike = (index) => {
-    const newLikes = [...likes];
-    newLikes[index] += 1;
-    setLikes(newLikes);
-  };
+ 
 
-  const handleDislike = (index) => {
-    const newDislikes = [...dislikes];
-    newDislikes[index] += 1;
-    setDislikes(newDislikes);
-  };
-
+ 
   return (
     <div className="image-gallery-container">
       <h2>Вы ищете такие фотографии?</h2>
