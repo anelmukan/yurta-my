@@ -1,7 +1,8 @@
-import React from "react";
-import { Link, NavLink } from "react-router-dom";
-import { useState, useRef } from "react";
-import "../styles/Header.css";
+import '../styles/Header.css';
+
+import React from 'react';
+import { useRef, useState } from 'react';
+import { Link, NavLink } from 'react-router-dom';
 
 function Header() {
   const [click, setClick] = useState(false);
@@ -11,7 +12,7 @@ function Header() {
   const delay = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 
   const [toggle, setToggle] = useState(false);
-  const handleToggle = async (event) => {
+  const handleToggle = async () => {
     setToggle(!toggle);
     await delay(400);
     ref.current.focus();
@@ -44,7 +45,7 @@ function Header() {
             </svg>
           )}
         </div>
-        <ul className={click ? "nav-menu active" : "nav-menu"}>
+        <ul className={click ? 'nav-menu active' : 'nav-menu'}>
           <div id="menu-blur" className="blur" onClick={closeMobileMenu}></div>
           <li className="nav-item">
             <NavLink to="/forum" className="nav-link" onClick={closeMobileMenu}>
@@ -78,7 +79,7 @@ function Header() {
                 />
               </svg>
             </div>
-            <label className={toggle ? "search-input active" : "search-input"}>
+            <label className={toggle ? 'search-input active' : 'search-input'}>
               <div id="search-blur" className="blur" onClick={closeSearch}></div>
               <input type="text" ref={ref} placeholder="Search..." />
             </label>
@@ -91,7 +92,7 @@ function Header() {
             </Link>
           </div>
         </div>
-        <div className={click ? "letter active" : "letter"}>
+        <div className={click ? 'letter active' : 'letter'}>
           <Link to="/letter">
             <button className="letter-btn">Письмо</button>
           </Link>

@@ -1,6 +1,7 @@
+import '../styles/Registration.css';
+
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import '../styles/Registration.css';
 
 function Registration() {
   const [email, setEmail] = useState('');
@@ -11,10 +12,10 @@ function Registration() {
   const handleSubmit = (e) => {
     e.preventDefault();
     if (password !== confirmPassword) {
-      alert("Passwords do not match");
+      alert('Passwords do not match');
       return;
     }
-    console.log("Form submitted:", { email, password, rememberMe });
+    console.log('Form submitted:', { email, password, rememberMe });
   };
 
   const handleCancel = () => {
@@ -29,8 +30,7 @@ function Registration() {
       <div className="log-container">
         <div className="logo">
           <Link className="logo" to="/">
-          <img src="../images/logo.png" alt="" width="60px" height="60px" />
-           
+            <img src="../images/logo.png" alt="" width="60px" height="60px" />
           </Link>
         </div>
         <div className="form-container">
@@ -68,17 +68,20 @@ function Registration() {
               />
             </div>
             <div className="form-group">
-           
               <label>
-                <input className='checkbox'
+                <input
+                  className="checkbox"
                   type="checkbox"
                   checked={rememberMe}
-                  onChange={(e) => setRememberMe(e.target.checked)}/>
-           Запомните меня
+                  onChange={(e) => setRememberMe(e.target.checked)}
+                />
+                Запомните меня
               </label>
             </div>
             <div className="form-actions">
-              <button type="button" onClick={handleCancel}>Отменить</button>
+              <button type="button" onClick={handleCancel}>
+                Отменить
+              </button>
               <button type="submit">Зарегистрироваться</button>
             </div>
           </form>

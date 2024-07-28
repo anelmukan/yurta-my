@@ -1,33 +1,32 @@
 /* src/styles/IconNavbar.css */
 
 .icon-navbar {
-    display: flex;
-    justify-content: space-around;
-    background-color: #f8f8f8;
-    padding: 10px 0;
-    border-top: 1px solid #e0e0e0;
-    border-bottom: 1px solid #e0e0e0;
+  display: flex;
+  justify-content: space-around;
+  background-color: #f8f8f8;
+  padding: 10px 0;
+  border-top: 1px solid #e0e0e0;
+  border-bottom: 1px solid #e0e0e0;
 }
 
 .icon-item {
-    text-align: center;
-    flex-grow: 1;
-    text-decoration: none;
-    
+  text-align: center;
+  flex-grow: 1;
+  text-decoration: none;
 }
 
 .icon-item p {
-    margin-top: 5px;
-    font-size: 14px;
-    color: #505050;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 600;
+  margin-top: 5px;
+  font-size: 14px;
+  color: #505050;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
 }
 
 a {
-    text-decoration: none;
-    color: #32bbe4;
+  text-decoration: none;
+  color: #32bbe4;
 }
 a:hover {
-    color: #505050;
+  color: #505050;
 }

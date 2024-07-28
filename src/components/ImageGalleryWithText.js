@@ -1,7 +1,6 @@
-import React, { useRef, useState } from 'react';
 import '../styles/ImageGalleryLikes.css';
 
-
+import React, { useRef, useState } from 'react';
 
 const ImageGalleryWithText = () => {
   const scrollRef = useRef(null);
@@ -27,36 +26,36 @@ const ImageGalleryWithText = () => {
     'Любовь с первого взгяда?Да..',
     'Кресло из букле, то что вам ну..',
     'Комната для уроков теперь буде..',
-    'Зеркало волна на пике популярно..'
+    'Зеркало волна на пике популярно..',
   ];
 
-  const [likes, setLikes] = useState(imageUrls.map(() => 0));
-  const [dislikes, setDislikes] = useState(imageUrls.map(() => 0));
+  // const [likes, setLikes] = useState(imageUrls.map(() => 0));
+  // const [dislikes, setDislikes] = useState(imageUrls.map(() => 0));
 
   const scroll = (scrollOffset) => {
     scrollRef.current.scrollLeft += scrollOffset;
   };
 
- 
-
- 
   return (
     <div className="image-gallery-container">
       <h2>Вы ищете такие фотографии?</h2>
       <p>Мы рекомендуем контент по дизайну интерьера, который вам может понравиться.</p>
-      <div className="scroll-button left" onClick={() => scroll(-300)}>‹</div>
+      <div className="scroll-button left" onClick={() => scroll(-300)}>
+        ‹
+      </div>
       <div className="image-gallery" ref={scrollRef}>
         {imageUrls.map((imageUrl, index) => (
           <div className="image-item" key={index}>
             <div className="image-container">
               <img src={imageUrl} alt={` ${index + 1}`} />
               <p className="image-text">{imageTexts[index]}</p>
-          
             </div>
           </div>
         ))}
       </div>
-      <div className="scroll-button right" onClick={() => scroll(300)}>›</div>
+      <div className="scroll-button right" onClick={() => scroll(300)}>
+        ›
+      </div>
     </div>
   );
 };

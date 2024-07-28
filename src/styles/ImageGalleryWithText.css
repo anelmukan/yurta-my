@@ -1,57 +1,50 @@
 .image-gallery-container {
-    position: relative;
-    width: 100%;
-    overflow: hidden;
-  }
-  
-  .image-gallery {
-    display: flex;
-    overflow-x: scroll;
-    scroll-behavior: smooth;
-    scrollbar-width: none; 
-   
-  }
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
 
+.image-gallery {
+  display: flex;
+  overflow-x: scroll;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+}
 
-  .image-gallery::-webkit-scrollbar {
-    display: none;
-   
-  }
-  
-  .image-item {
-    min-width: 300px;
-    margin: 10px;
-   
-  }
-  
-  .image-container {
-    position: relative;
-  }
-  
-  .image-text {
-    text-align: center;
-    font-size: 1rem;
-    margin: 10px 0;
-  }
+.image-gallery::-webkit-scrollbar {
+  display: none;
+}
 
-  
-  .scroll-button {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    background: rgba(255, 255, 255, 0.7);
-    border: none;
-    font-size: 2rem;
-    cursor: pointer;
-    z-index: 1;
-  }
-  
-  .scroll-button.left {
-    left: 0;
-  
-  }
-  
-  .scroll-button.right {
-    right: 0;
-  }
-  
+.image-item {
+  min-width: 300px;
+  margin: 10px;
+}
+
+.image-container {
+  position: relative;
+}
+
+.image-text {
+  text-align: center;
+  font-size: 1rem;
+  margin: 10px 0;
+}
+
+.scroll-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(255, 255, 255, 0.7);
+  border: none;
+  font-size: 2rem;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.scroll-button.left {
+  left: 0;
+}
+
+.scroll-button.right {
+  right: 0;
+}

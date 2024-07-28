@@ -1,41 +1,42 @@
+import '../styles/Log.css';
+
 import React from 'react';
 import { Link } from 'react-router-dom';
-import '../styles/Log.css';
 
 function Log() {
   const login = () => {
-    var username = document.getElementById("username").value;
-    var password = document.getElementById("password").value;
+    var username = document.getElementById('username').value;
+    var password = document.getElementById('password').value;
 
-    if (username === "user" && password === "password") {
-      document.getElementById("loginForm").classList.add("hidden");
-      document.getElementById("socialLogin").classList.add("hidden");
-      document.getElementById("profile").classList.remove("hidden");
-      document.getElementById("userSpan").innerText = username;
+    if (username === 'user' && password === 'password') {
+      document.getElementById('loginForm').classList.add('hidden');
+      document.getElementById('socialLogin').classList.add('hidden');
+      document.getElementById('profile').classList.remove('hidden');
+      document.getElementById('userSpan').innerText = username;
     } else {
-      alert("Incorrect username or password.");
+      alert('Incorrect username or password.');
     }
   };
 
   const loginWithGmail = () => {
-    alert("Login with Gmail functionality coming soon!");
+    alert('Login with Gmail functionality coming soon!');
   };
 
   const loginWithWhatsApp = () => {
-    alert("Login with WhatsApp functionality coming soon!");
+    alert('Login with WhatsApp functionality coming soon!');
   };
 
   const loginWithFacebook = () => {
-    alert("Login with Facebook functionality coming soon!");
+    alert('Login with Facebook functionality coming soon!');
   };
 
   const logout = () => {
-    document.getElementById("loginForm").classList.remove("hidden");
-    document.getElementById("socialLogin").classList.remove("hidden");
-    document.getElementById("profile").classList.add("hidden");
-    document.getElementById("username").value = "";
-    document.getElementById("password").value = "";
-    document.getElementById("nickname").value = "";
+    document.getElementById('loginForm').classList.remove('hidden');
+    document.getElementById('socialLogin').classList.remove('hidden');
+    document.getElementById('profile').classList.add('hidden');
+    document.getElementById('username').value = '';
+    document.getElementById('password').value = '';
+    document.getElementById('nickname').value = '';
   };
 
   return (
@@ -43,7 +44,6 @@ function Log() {
       <div className="logo">
         <Link className="logo" to="/">
           <img src="../images/logo.png" alt="" width="60px" height="60px" />
-        
         </Link>
       </div>
       <div className="big-container">

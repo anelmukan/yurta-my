@@ -3,7 +3,11 @@
 import React from 'react';
 
 const Events = () => {
-    return <div className="content"><h1>Events</h1></div>;
+  return (
+    <div className="content">
+      <h1>Events</h1>
+    </div>
+  );
 };
 
 export default Events;

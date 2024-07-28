@@ -1,8 +1,6 @@
-import React, { useRef, useState } from 'react';
 import '../styles/ImageGalleryLikes.css';
 
-
-
+import React, { useRef, useState } from 'react';
 
 const ImageGalleryLikes = () => {
   const scrollRef = useRef(null);
@@ -20,7 +18,7 @@ const ImageGalleryLikes = () => {
   ];
 
   const [likes, setLikes] = useState(imageUrls.map(() => 0));
-  const [dislikes, setDislikes] = useState(imageUrls.map(() => 0));
+  // const [dislikes, setDislikes] = useState(imageUrls.map(() => 0));
 
   const scroll = (scrollOffset) => {
     scrollRef.current.scrollLeft += scrollOffset;
@@ -32,33 +30,29 @@ const ImageGalleryLikes = () => {
     setLikes(newLikes);
   };
 
-
   return (
     <div className="image-gallery-container">
       <h2>Добро пожаловать лето!</h2>
       <p>Выберите дизайн и мы подскажем где все это можно купить.</p>
-      <div className="scroll-button left" onClick={() => scroll(-300)}>‹</div>
+      <div className="scroll-button left" onClick={() => scroll(-300)}>
+        ‹
+      </div>
       <div className="image-gallery" ref={scrollRef}>
         {imageUrls.map((imageUrl, index) => (
           <div className="image-item" key={index}>
             <div className="image-container">
               <img src={imageUrl} alt={` ${index + 1}`} />
               <div className="likes-dislikes">
-                <button onClick={() => handleLike(index)}>
-                ❤ {likes[index]}
-                </button>
-                
-              
+                <button onClick={() => handleLike(index)}>❤ {likes[index]}</button>
               </div>
-              
             </div>
-            
           </div>
-          
         ))}
       </div>
-  
-      <div className="scroll-button right" onClick={() => scroll(300)}>›</div>
+
+      <div className="scroll-button right" onClick={() => scroll(300)}>
+        ›
+      </div>
     </div>
   );
 };

@@ -31,7 +31,7 @@ h2 {
   position: absolute;
   top: 10px;
   left: 10px;
-  background-color: #FF8E8F;
+  background-color: #ff8e8f;
   color: white;
   padding: 5px 10px;
   border-radius: 3px;
@@ -44,7 +44,7 @@ h2 {
   height: auto;
   transition: 0.3s;
 }
-.deal-image:hover{
+.deal-image:hover {
   transform: scale(1.1);
 }
 .deal-details {
@@ -69,7 +69,7 @@ h2 {
 }
 
 .discount {
-  color: #FF8E8F;
+  color: #ff8e8f;
   margin-right: 5px;
 }
 
@@ -81,14 +81,14 @@ h2 {
 
 .deal-delivery {
   font-size: 12px;
-  color: #1591EA;
+  color: #1591ea;
 }
 
 .more-deals-link {
   display: block;
   text-align: right;
   margin-top: 20px;
-  color: #1591EA;
+  color: #1591ea;
   text-decoration: none;
 }
 

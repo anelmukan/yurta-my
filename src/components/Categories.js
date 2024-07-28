@@ -1,6 +1,7 @@
-import React from 'react';
-import { FaCouch, FaBed, FaDesktop, FaMugHot, FaWindowClose } from 'react-icons/fa'; // Updated imports
 import '../styles/Categories.css';
+
+import React from 'react';
+import { FaBed, FaCouch, FaDesktop, FaMugHot, FaWindowClose } from 'react-icons/fa'; // Updated imports
 
 const Categories = () => {
   return (

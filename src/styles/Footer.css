@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-between;
   padding: 20px;
- flex-wrap: nowrap;
+  flex-wrap: nowrap;
   background-color: #f8f8f8;
   font-family: Arial, sans-serif;
 }
@@ -21,7 +21,8 @@ ul {
   padding: 0;
 }
 
-.contact-button, .email-request-button {
+.contact-button,
+.email-request-button {
   display: block;
   margin-top: 10px;
   padding: 10px;
@@ -60,10 +61,11 @@ ul {
   .footer {
     flex-direction: row;
     align-items: center;
-   
   }
 
-  .customer-service, .footer-links, .company-info {
+  .customer-service,
+  .footer-links,
+  .company-info {
     max-width: 100%;
     margin-bottom: 20px;
   }

@@ -43,7 +43,7 @@
   margin-top: 10px;
   padding: 10px;
   background-color: #00bbff;
-  border: 1px solid #FFF8F5;
+  border: 1px solid #fff8f5;
   border-radius: 5px;
   cursor: pointer;
   display: flex;
@@ -55,8 +55,8 @@
   margin: 0;
   color: aliceblue;
 }
-.hr{
-  color:#1591EA;
+.hr {
+  color: #1591ea;
 }
 
 .combine {
@@ -66,7 +66,8 @@
   margin-top: 10px;
 }
 
-.changepassword, .registration {
+.changepassword,
+.registration {
   display: flex;
   justify-content: center;
 }
@@ -91,10 +92,11 @@
 .mistake {
   margin-top: 20px;
   text-decoration: none;
-  color:#00bbff ;
+  color: #00bbff;
 }
 
-.line, .rights {
+.line,
+.rights {
   margin-top: 20px;
   text-align: center;
 }

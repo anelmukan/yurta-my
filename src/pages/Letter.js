@@ -1,6 +1,7 @@
-import React from "react";
-import { Link } from "react-router-dom";
-import "../styles/Letter.css";
+import '../styles/Letter.css';
+
+import React from 'react';
+import { Link } from 'react-router-dom';
 
 function Letter() {
   return (
@@ -8,11 +9,12 @@ function Letter() {
       <div className="letter-logo">
         <Link className="logo" to="/">
           <img src="./images/logo.png" alt="" width="60px" height="60px" />
-          
         </Link>
       </div>
       <h6>Напишите всем о своем опыте:</h6>
-      <p className="message">Поделитесь идеями и вдохновите других по оформлению комнаты</p>
+      <p className="message">
+        Поделитесь идеями и вдохновите других по оформлению комнаты
+      </p>
       <form action="/action_page.php">
         <label htmlFor="fname">Ваше имя</label>
         <input type="text" id="fname" name="firstname" placeholder="Мое имя.." />
@@ -31,7 +33,7 @@ function Letter() {
           name="subject"
           placeholder="Напишите..."
           style={{ height: 200 }}
-          defaultValue={""}
+          defaultValue={''}
         />
         <input type="submit" defaultValue="Отправить" />
       </form>

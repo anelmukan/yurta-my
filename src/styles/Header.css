@@ -1,24 +1,24 @@
-nav{
+nav {
   background-color: #fff;
   display: flex;
-  justify-content:flex-start;
+  justify-content: flex-start;
   padding: 5px;
- flex-wrap: wrap; 
- background-color: #ffffff;
-  
+  flex-wrap: wrap;
+  background-color: #ffffff;
 }
 
-.head,.bestSellers{
+.head,
+.bestSellers {
   padding: 10px 20px;
   text-decoration: none;
-text-transform: uppercase;
+  text-transform: uppercase;
   font-size: 14px;
-font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   color: #505050;
   font-weight: 600;
 }
 
-.home-head{
+.home-head {
   font-size: 25px;
   display: flex;
   justify-content: flex-start;
@@ -27,9 +27,9 @@ font-family: 'Montserrat', sans-serif;
   font-weight: 700;
 }
 .head:hover {
-  color:  #32bbe4;
+  color: #32bbe4;
 }
-.home-head:hover{
+.home-head:hover {
   color: #3e3e3e;
 }
 .bestSellers:hover {
@@ -37,7 +37,7 @@ font-family: 'Montserrat', sans-serif;
 }
 .head-btn {
   padding: 7px;
-  background-color:  #32bbe4;
+  background-color: #32bbe4;
   color: white;
   text-decoration: none;
   border-radius: 4px;
@@ -48,43 +48,31 @@ font-family: 'Montserrat', sans-serif;
 }
 
 .products {
-
   display: flex;
 
   flex-wrap: wrap;
-
 }
 
 .product-card {
-
   padding: 2%;
 
   flex-grow: 1;
 
   flex-basis: 16%;
-
 }
 
 body {
-
   background-color: #fff;
-
 }
 
-
-
 .cont {
-
   display: flex;
 
   justify-content: center;
-
 }
 
-
 .change {
-
-  background-color:  #32bbe4;
+  background-color: #32bbe4;
 
   color: white;
   font-weight: 200;
@@ -94,33 +82,25 @@ body {
   border: none;
 
   font-family: 'Montserrat', sans-serif;
-
 }
 
 p {
-
-  font-family:'Montserrat', sans-serif;
-
+  font-family: 'Montserrat', sans-serif;
 }
 
 button {
-
   margin: 10px;
-
 }
-
-
 
 /*поиск*/
 .search input {
   padding: 2px 3px;
   border: 1px solid #ccc;
   border-radius: 5px;
- 
 }
 .search {
-display: flex;
-font-size: 10px;
+  display: flex;
+  font-size: 10px;
 }
 .user-actions a {
   margin-left: 15px;
